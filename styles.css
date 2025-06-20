@@ -279,6 +279,10 @@ header {
   opacity: 1;
 }
 
+.textarea{
+  min-height:10rem ;
+}
+
 
 /* ====BUTTON ==== */
 
