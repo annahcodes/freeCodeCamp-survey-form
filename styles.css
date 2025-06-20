@@ -140,3 +140,13 @@ header {
 .datalist {
   padding: 1.45rem 2rem;
 }
+
+.select,
+.form-input::-webkit-input-placeholder,
+.select::-webkit-input-placeholder,
+.datalist::-webkit-input-placeholder,
+.textarea::-webkit-input-placeholder {
+  font-size: 1.125rem;
+  font-weight: 100;
+  color: rgba(240, 240, 240, 0.75);
+}
