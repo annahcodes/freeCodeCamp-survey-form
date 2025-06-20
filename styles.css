@@ -278,3 +278,28 @@ header {
   /* when we check the input the  opacity of the pseudo element to 1 */
   opacity: 1;
 }
+
+
+/* ====BUTTON ==== */
+
+.btn-submit {
+  display: inline-block;
+  width: 100%;
+  padding: 1rem 2rem;
+  color: #F0F0F0;
+  background-color: rgb(34, 139, 34);
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  transition: all 400ms ease-in-out;
+
+}
+
+.btn-submit:hover {
+  background-color: #F0F0F0;
+  color: rgb(34, 139, 34);
+}
