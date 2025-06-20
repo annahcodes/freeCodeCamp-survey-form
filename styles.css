@@ -150,3 +150,27 @@ header {
   font-weight: 100;
   color: rgba(240, 240, 240, 0.75);
 }
+
+/* =====input ==== */
+.form-input {
+  padding: 1.35rem 2rem;
+  font-size: 1.25rem;
+  /* initial state */
+  border-bottom: 2px solid transparent;
+  transition: all 400ms ease-in-out;
+
+}
+
+.form-input[type='text']:focus,
+.form-input[type='email']:focus {
+  border-bottom: 4px solid rgb(34, 139, 34);
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.15);
+
+}
+
+.form-input[type='text']:focus:invalid,
+.form-input[type='email']:focus:invalid {
+  border-bottom: 4px solid rgb(130, 38, 89);
+
+}
+
