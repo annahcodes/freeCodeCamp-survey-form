@@ -174,3 +174,56 @@ header {
 
 }
 
+
+/* ===== radio buttons ===== */
+.form-radio-group + .form-radio-group {
+  margin-top: 1rem;
+
+}
+
+
+.form-radio-input {
+  /* Hide the input */
+  display: none;
+}
+
+.form-radio-label {
+  font-size: 1.35rem;
+  font-weight: 100;
+  color: rgba(240, 240, 240, 0.8);
+  cursor: pointer;
+  padding-left: 4rem;
+  position: relative;
+}
+
+.form-radio-button {
+  height: 1.4rem;
+  width: 1.4rem;
+  border: 3px solid rgb(240, 240, 240);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 1.6px;
+}
+
+.form-radio-button::after {
+  content: '';
+  height: .7rem;
+  width: .7rem;
+  background: forestgreen;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* hide the dots */
+  opacity: 0;
+  transition: opacity 400ms ease-in-out;
+}
+
+.form-radio-input:checked~.form-radio-label .form-radio-button::after {
+  /* when we check the input the  opacity of the pseudo element to 1 */
+  opacity: 1;
+}
