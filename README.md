@@ -12,7 +12,7 @@ Building the project helped me put into practice everything I have covered so fa
 - Form Validation
 - Basic CSS
 
-View the project [here](https://annahcodes.github.io/fcc-survey-form/).
+View the project [here](https://annahcodes.github.io/freeCodeCamp-survey-form/).
 
 
 
