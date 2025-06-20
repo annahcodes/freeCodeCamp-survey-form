@@ -289,6 +289,7 @@ header {
 .btn-submit {
   display: inline-block;
   width: 100%;
+  margin-top: 1.5rem;
   padding: 1rem 2rem;
   color: #F0F0F0;
   background-color: rgb(34, 139, 34);
