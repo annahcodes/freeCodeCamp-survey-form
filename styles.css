@@ -89,7 +89,39 @@ header {
 
 }
 
+/* =====FORM===== */
+.form {
+  background: rgba(26, 26, 26, .9);
+  box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.35),
+    0 2px 2px hsl(0deg 0% 0% / 0.35),
+    0 4px 4px hsl(0deg 0% 0% / 0.35),
+    0 8px 8px hsl(0deg 0% 0% / 0.15),
+    0 16px 16px hsl(0deg 0% 0% / 0.15);
+  border-radius: 0.45rem;
+  padding: 3.75rem;
+  /* debugging purposes */
+  /* border: 2px solid red; */
+}
 
+.form-group:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+.form-label,
+.form-input,
+.select,
+.textarea,
+.datalist {
+  display: block;
+  width: 100%;
+}
+
+.form-label,
+.label-text{
+  font-size: 1.45rem;
+  margin-bottom: 1rem;
+}
 
 
 
