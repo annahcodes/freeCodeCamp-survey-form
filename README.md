@@ -1,4 +1,4 @@
-# FreeCodeCamp Survey Form Project
+# freeCodeCamp Survey Form Project
 
 This is the first project in the new
 [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) curriculum by freeCodeCamp.
