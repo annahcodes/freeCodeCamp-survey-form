@@ -1,7 +1,5 @@
 # FreeCodeCamp Survey Form Project
 
-![survey-form](https://github.com/user-attachments/assets/931c19f9-2c70-4636-9ee6-7409c87e1c44)
-
 This is the first project in the new
 [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) curriculum by freeCodeCamp.
 
